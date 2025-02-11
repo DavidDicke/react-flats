@@ -28,9 +28,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  padding: 1rem;
+  padding: 2rem;
   color: white;
 }
 .card-selected {
-  border: 5px solid red;
+  border: 1rem solid red;
+  padding: 1rem;
 }

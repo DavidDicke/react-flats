@@ -10,7 +10,7 @@ class ListAppartement extends Component {
     return (
       <div className="list-appartements">
         { flats.map((flat) => {
-          return <CardAppartement key={flat.lng} flat={flat} />;
+          return <CardAppartement key={flat.lng} flat={flat} setLatLng={this.props.setLatLng} />;
         })}
       </div>
     );
